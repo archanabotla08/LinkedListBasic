@@ -32,10 +32,10 @@ public class LinkedListBasic {
 	public static void main(String[] args) {
 		//System.out.println("Welcome Message");
 		LinkedListBasic linkedList= new LinkedListBasic();
-		//UC1
-		linkedList.addNodeToLinkedList(70);
-		linkedList.addNodeToLinkedList(30);
+		//UC3
 		linkedList.addNodeToLinkedList(56);	
+		linkedList.addNodeToLinkedList(30);
+		linkedList.addNodeToLinkedList(70);
 		linkedList.display();
 	}
 
